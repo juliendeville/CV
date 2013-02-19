@@ -1,0 +1,32 @@
+
+#canvas_id, .end {
+	position: relative;
+	left: -300px;
+}
+
+#compat {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+body, html {
+	margin: 0;
+	/*height: 100%;
+	width: 100%;*/
+	overflow: hidden;
+}
+
+.centre {
+	position: relative;
+	left: 50%;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+@font-face {
+  font-family: "SuperFont";
+  src: url(http://juliendeville.com/visitor1.ttf) format("truetype");
+  /*src: url(http://juliendeville.com/Fipps-Regular.otf) format("opentype");*/
+}

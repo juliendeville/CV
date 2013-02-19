@@ -1,0 +1,35 @@
+core: 
+    class:
+    engine:
+    server:
+    scene:
+    canvas:
+    element:
+     traversing:
+     draw:
+     manipulate:
+     events:
+    materials:
+    sound:
+    ajax:
+    utilities:
+
+extends:
+   animation:
+   timeline:
+   spritesheet:
+   scrolling:
+   collision:
+    hit:
+    entity:
+    grid:
+   save:
+   input:
+    keyboard:
+    gamepad:
+    accelerometer:
+   window:
+
+editor: 
+   tiled:
+   gleed2d:
