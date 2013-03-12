@@ -9,7 +9,7 @@ canvas.Scene.new({
         ennemiKill: 100,
         bossEnnemiKill: 1000
     },
-    hauteur: 2700,
+    hauteur: 1800,
     hauteurEcran: 500,
     largeur: 600,
     largeurJoueur: 29,
@@ -19,6 +19,8 @@ canvas.Scene.new({
     hauteurEnnemi: 30,
     largeurBoss: 80,
     hauteurBoss: 60,
+    DureeJeu: 20000,
+    DureeScroll: 17000,
     materials: {
         images: {
             fond: "assets/astronaut/farback.gif",
@@ -29,6 +31,7 @@ canvas.Scene.new({
             ennemi3: "assets/astronaut/ennemi3.png",
             ennemi4: "assets/astronaut/ennemi4.png",
             fire: "assets/astronaut/fire.png",
+            ok: "assets/astronaut/fireOk.png",
             explosion: "assets/astronaut/explosion.png",
             explosionBoss: "assets/astronaut/explosionBoss.png",
             fireEnnemi: "assets/astronaut/fireEnnemi.png",

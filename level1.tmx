@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="15" height="90" tilewidth="40" tileheight="30">
+<map version="1.0" orientation="orthogonal" width="15" height="60" tilewidth="40" tileheight="30">
  <tileset firstgid="1" name="starfield" tilewidth="40" tileheight="30">
-  <image source="assets/starfield.png" trans="ffffff" width="800" height="601"/>
+  <image source="assets/astronaut/starfield.png" trans="ffffff" width="800" height="601"/>
  </tileset>
- <layer name="Calque 1" width="15" height="90">
+ <layer name="Calque 1" width="15" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1MWTzwEAxuGfWuxqo3OtGLWhY8RiWbtidO+K0d0jV6we3Zx0c9LNSTcn3Zx0x+N/cPzOvM9f8M58LoRCoYtc4jJXuMo1rnODm9ziNne4yz3u84CHPOIxT3jKM57zgpe84jVveMs73vOBj3ziM1/4yje+84Of/OI3f8iSIRQKIyvZyE44EeQgJ7nITR7yko/8FKEoxShOCUpSitJEUoYoylKO8lSgKtHEEEsc1ahODWpSi9rUoS71qE88TWhKMxJoTgsSaUkSybSiNW1oSyc604WudKM7PehJL1JIpTd96Es/BjOEoQxjOCMYyShGM4axjGM8E5jINKaTxgxmMovZpDOHucxjPgtYyCIslJFMZP73GWFkJRvZCSeCHOQkF7kpQEEKUZgiFKUYxSlBSUpRmkjKEEVFKlGZKlQlmhhiiaMa1alBTWpRmwY0pBGNiacJTWlGAs1pQSItSSKZdrSnAx3pRGe60JVudKcHPelFCqn0ZwADGcRghjCUYQxnBCMZxWjGMJZJTGYKU5nGdNKYwUxmMZt05jCXeSxmCUtZxnJWsJJVrGYNa1nHejawkU1sZgtb2cZ2drCTXexmD3vZx34OcJBDHOYIRznGcU5wklOc5gxnOcd5LoSCXgW9CnoV9CroVdCroFdBr4JeBb0KehX0KuhV0KugV0Gv/k+v/gJMjEPo
+   eJzt1EWTyAEAxuHVrGbEytWjtqwetatz5C5bYuSymtG9anRz0s1JNyfdnHRz0h3Ph3D8z7zPN3jnlyUkJCQr2chODnKSi9zkIZS85CM/BShIMYpTgpKEUYrSlKEs5ShPOBWoSCWqU4Oa1KI2EUQSRTQx1CGWutSjPk1oSjOa04I44mlJK1rThra0oz0d6Eo3utODnvQigUR604ckkkkhlTQGMojBDGEow0hnOCPIYCSjGM0YxjKJyUxhKtOYzgxmMovZzGEu88hkPktYyjKWs4KVrGI1a1jLOtazgY1sYjNb2Mo2trODnexiN3vYyz72c4CDHOIwRzjKMY5zgpOc4jRnOMs5znOBi1ziMle4yjWuc4Ob3OI2d7jLPe7zgIc84jFPeMoznvOCl7ziNW94yzve84GPfOIzX/jKN77zg5/84jd/+EuOLL5PLnKTh1Dyko/8FKAghShMEYoSRilKU4aylKM84VSgIpWoTBWqUo3aRBBJFNHEUIdY6lKP+jSgIY1oTAviiKclrWhNG9rSjvZ0oCOd6EwXetKLBBLpTR+SSCaFVNLoSz/6M4ChDCOd4Ywgg5GMYjRjGMs4xjOBiUxjOjOYySxmM4e5zCOT+SxgIYtYjAW9Cgl6FfQq6FXQq6BXQa+CXgW9+n+9+gfkxX5j
   </data>
  </layer>
- <objectgroup color="#ff66ff" name="ennemi4" width="15" height="90">
-  <object x="480" y="660" width="40" height="30"/>
-  <object x="80" y="660" width="40" height="30"/>
-  <object x="400" y="660" width="40" height="30"/>
-  <object x="160" y="660" width="40" height="30"/>
+ <objectgroup color="#ff66ff" name="ennemi4" width="15" height="60">
+  <object x="480" y="510" width="40" height="30"/>
+  <object x="80" y="510" width="40" height="30"/>
+  <object x="400" y="510" width="40" height="30"/>
+  <object x="160" y="510" width="40" height="30"/>
+  <object x="120" y="810" width="40" height="30"/>
+  <object x="280" y="870" width="40" height="30"/>
+  <object x="440" y="810" width="40" height="30"/>
  </objectgroup>
- <objectgroup color="#66ff66" name="ennemi3" width="15" height="90">
-  <object x="120" y="1320" width="40" height="30"/>
-  <object x="440" y="1320" width="40" height="30"/>
-  <object x="360" y="1260" width="40" height="30"/>
-  <object x="200" y="1260" width="40" height="30"/>
-  <object x="280" y="1320" width="40" height="30"/>
-  <object x="520" y="1260" width="40" height="30"/>
-  <object x="40" y="1260" width="40" height="30"/>
-  <object x="400" y="720" width="40" height="30"/>
-  <object x="160" y="720" width="40" height="30"/>
-  <object x="80" y="720" width="40" height="30"/>
-  <object x="480" y="720" width="40" height="30"/>
+ <objectgroup color="#66ff66" name="ennemi3" width="15" height="60">
+  <object x="440" y="540" width="40" height="30"/>
+  <object x="120" y="540" width="40" height="30"/>
+  <object x="280" y="810" width="40" height="30"/>
+  <object x="0" y="1440" width="40" height="30"/>
+  <object x="560" y="1260" width="40" height="30"/>
  </objectgroup>
- <objectgroup color="#0080ff" name="ennemi2" width="15" height="90">
-  <object x="440" y="1950" width="40" height="30"/>
-  <object x="280" y="1830" width="40" height="30"/>
-  <object x="240" y="1800" width="40" height="30"/>
-  <object x="360" y="1890" width="40" height="30"/>
-  <object x="400" y="1920" width="40" height="30"/>
-  <object x="320" y="1860" width="40" height="30"/>
-  <object x="520" y="1320" width="40" height="30"/>
-  <object x="200" y="1320" width="40" height="30"/>
-  <object x="360" y="1320" width="40" height="30"/>
-  <object x="40" y="1320" width="40" height="30"/>
-  <object x="40" y="690" width="40" height="30"/>
-  <object x="360" y="690" width="40" height="30"/>
-  <object x="200" y="690" width="40" height="30"/>
-  <object x="520" y="690" width="40" height="30"/>
+ <objectgroup color="#0080ff" name="ennemi2" width="15" height="60">
+  <object x="240" y="1140" width="40" height="30"/>
+  <object x="160" y="1110" width="40" height="30"/>
+  <object x="480" y="1230" width="40" height="30"/>
+  <object x="320" y="1170" width="40" height="30"/>
+  <object x="40" y="540" width="40" height="30"/>
+  <object x="360" y="540" width="40" height="30"/>
+  <object x="200" y="540" width="40" height="30"/>
+  <object x="520" y="540" width="40" height="30"/>
+  <object x="200" y="810" width="40" height="30"/>
+  <object x="120" y="870" width="40" height="30"/>
+  <object x="360" y="810" width="40" height="30"/>
+  <object x="440" y="870" width="40" height="30"/>
+  <object x="520" y="810" width="40" height="30"/>
+  <object x="400" y="1200" width="40" height="30"/>
  </objectgroup>
- <objectgroup name="ennemi1" width="15" height="90">
-  <object x="80" y="2160" width="40" height="30"/>
-  <object x="120" y="2130" width="40" height="30"/>
-  <object x="160" y="2100" width="40" height="30"/>
-  <object x="200" y="2070" width="40" height="30"/>
-  <object x="240" y="2040" width="40" height="30"/>
-  <object x="280" y="2010" width="40" height="30"/>
-  <object x="440" y="1260" width="40" height="30"/>
-  <object x="280" y="1260" width="40" height="30"/>
-  <object x="120" y="1260" width="40" height="30"/>
-  <object x="120" y="690" width="40" height="30"/>
-  <object x="440" y="690" width="40" height="30"/>
+ <objectgroup name="ennemi1" width="15" height="60">
+  <object x="80" y="1410" width="40" height="30"/>
+  <object x="160" y="1380" width="40" height="30"/>
+  <object x="320" y="1320" width="40" height="30"/>
+  <object x="400" y="1290" width="40" height="30"/>
+  <object x="360" y="870" width="40" height="30"/>
+  <object x="200" y="870" width="40" height="30"/>
+  <object x="520" y="870" width="40" height="30"/>
+  <object x="40" y="870" width="40" height="30"/>
+  <object x="400" y="570" width="40" height="30"/>
+  <object x="80" y="570" width="40" height="30"/>
+  <object x="480" y="570" width="40" height="30"/>
+  <object x="160" y="570" width="40" height="30"/>
+  <object x="40" y="810" width="40" height="30"/>
+  <object x="240" y="1350" width="40" height="30"/>
  </objectgroup>
- <objectgroup color="#ff0000" name="boss" width="15" height="90">
-  <object x="240" y="0" width="120" height="60"/>
+ <objectgroup color="#ff0000" name="boss" width="15" height="60">
+  <object x="240" y="30" width="120" height="60"/>
  </objectgroup>
 </map>

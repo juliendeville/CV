@@ -7,7 +7,8 @@ Class.create("Projectile", {
     dead: null,
     _dead: false,
     _dying: false,
-    vitesse: 4,
+    type: "no",
+    vitesse: 8,
     initialize: function(scene, stage, coords, to, dead, texture) {
     	if( !scene || !coords || typeof coords != "object" )
     		return false;
@@ -17,7 +18,11 @@ Class.create("Projectile", {
 
         if( texture ) {
             this.texture = texture;
-            vitesse = 1;
+            if( texture == "ok" ) {
+                this.type = "yes";
+            } else {
+                this.vitesse = 4;
+            }
         }
         this.element = this.scene.createElement();
         this.element.drawImage( this.texture );

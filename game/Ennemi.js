@@ -95,16 +95,16 @@ Class.create("Ennemi", {
             this.hits = 2;
         }
         if( this.type == "ennemi3" ) {
-            this.cadence = 30 * multiple;
-            this.hits = 5;
+            this.cadence = 0;
+            this.hits = 500;
         }
         if( this.type == "ennemi4" ) {
             this.cadence = 15 * multiple;
-            this.hits = 8;
+            this.hits = 4;
         }
         if( this.type == "boss" ) {
-            this.cadence = 5 * multiple;
-            this.hits = 25;
+            this.cadence = 0;
+            this.hits = 10;
         }
 
         this.animation.add( this.element );

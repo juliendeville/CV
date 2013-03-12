@@ -2,20 +2,20 @@ canvas.Scene.new({
     name: "CV", // Obligatory
     materials: {
         images: {
-            fond: "assets/farback.gif",
-            decor: "assets/starfield.png",
+            fond: "assets/astronaut/farback.gif",
+            decor: "assets/astronaut/starfield.png",
             textefond: "assets/textefond.png",
-            player: "assets/player.png",
-            ennemi1: "assets/ennemi1.png",
-            ennemi2: "assets/ennemi2.png",
-            ennemi3: "assets/ennemi3.png",
-            ennemi4: "assets/ennemi4.png",
-            fire: "assets/fire.png",
-            explosion: "assets/explosion.png",
-            explosionBoss: "assets/explosionBoss.png",
-            fireEnnemi: "assets/fireEnnemi.png",
-            donut: "assets/donut.png",
-            boss: "assets/boss.png",
+            player: "assets/astronaut/player.png",
+            ennemi1: "assets/astronaut/ennemi1.png",
+            ennemi2: "assets/astronaut/ennemi2.png",
+            ennemi3: "assets/astronaut/ennemi3.png",
+            ennemi4: "assets/astronaut/ennemi4.png",
+            fire: "assets/astronaut/fire.png",
+            explosion: "assets/astronaut/explosion.png",
+            explosionBoss: "assets/astronaut/explosionBoss.png",
+            fireEnnemi: "assets/astronaut/fireEnnemi.png",
+            donut: "assets/astronaut/donut.png",
+            boss: "assets/astronaut/boss.png",
             qrcode: "assets/qrcode.png"
         }
     },
@@ -185,9 +185,15 @@ canvas.Scene.new({
         var score = self.createElement();
         score.fillStyle = "white";
         score.font = "15px SuperFont";
-        score.fillText( "Your score : " + self.score + " !", 0, 0);
-        score.y = 90;
-        score.x = 210;
+        if( self.score != 0 ) {
+            score.fillText( "Your score : " + self.score + " !", 0, 0);
+            score.y = 90;
+            score.x = 210;
+        } else {
+            score.fillText( "Game Over !", 0, 0);
+            score.y = 90;
+            score.x = 210;
+        }
         
         var site = self.createElement();
         site.fillStyle = "transparent";
