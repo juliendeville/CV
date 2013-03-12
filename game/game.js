@@ -696,6 +696,22 @@ function GameRender( stage ) {
       self.joueur.element.y += diff;
       self.joueur.animation.y += diff;
       self.joueur.hitbox.move( 0, diff );
+      //diff = Math.abs(diff);
+
+      self.projectileJ.forEach( function( proj ) {
+        proj.move( -2*diff );
+      });
+      self.projectileE.forEach( function( proj ) {
+        proj.move( Math.abs(diff) );
+      });
+    } else {
+      
+      self.projectileJ.forEach( function( proj ) {
+        proj.move( vitesseJoueur );
+      });
+      self.projectileE.forEach( function( proj ) {
+        proj.move( vitesseJoueur );
+      });
     }
     if( self.ended ) {
       self.joueur.element.y -= 2*vitesseJoueur;

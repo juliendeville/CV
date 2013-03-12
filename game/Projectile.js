@@ -33,7 +33,7 @@ Class.create("Projectile", {
         this.element.y = y;
         this.target.x = to.x;
         this.target.y = to.y;
-        this.element.addLoopListener( this.move.bind( this ) );
+        //this.element.addLoopListener( this.move.bind( this ) );
         this.hitbox = Class.New("Entity", [ stage ] );
 
         this.hitbox.rect( 0, 0, 8, 16 );
@@ -52,7 +52,7 @@ Class.create("Projectile", {
         this._dying = true;
         this._dead = true;
     },
-    move: function() {
+    move: function( vitesse ) {
         if( this.target.x == this.element.x && this.target.y == this.element.y ) {
             this.dead( this );
             return;
@@ -61,11 +61,11 @@ Class.create("Projectile", {
         var mouvX = this.target.x - this.element.x;
         var mouvY = this.target.y - this.element.y;
         var dist = Math.sqrt( Math.pow( mouvX, 2 ) + Math.pow( mouvY, 2 ) );
-        if( dist < this.vitesse ) {
+        if( dist < vitesse ) {
             this.element.x = this.target.x;
             this.element.y = this.target.y;
         } else {
-            var rapport = this.vitesse / dist;
+            var rapport = vitesse / dist;
 
             this.element.x += rapport * mouvX;
             this.element.y += rapport * mouvY;
