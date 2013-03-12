@@ -27,6 +27,9 @@ body, html {
 
 @font-face {
   font-family: "SuperFont";
-  src: url(http://juliendeville.com/visitor1.ttf) format("truetype");
-  /*src: url(http://juliendeville.com/Fipps-Regular.otf) format("opentype");*/
+  src: url("http://juliendeville.com/visitor1.eot");
+  src: url("type/filename.woff") format("woff"),
+  url("http://juliendeville.com/visitor1.ttf") format("truetype"),
+  url("http://juliendeville.com/visitor1.svg#visitor1") format("svg"),
+  url("http://juliendeville.com/visitor1.otf") format("opentype");
 }
